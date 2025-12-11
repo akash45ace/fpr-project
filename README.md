@@ -46,6 +46,8 @@ Output                 File	    Description
 clean_alerts.json	    Contains  all alerts that did not match any False Positive rules (potential True Positives). This is your actionable alert list.
 false_positives.json	Contains  all alerts that matched one of the False Positive rules, along with a new field, "fp_reason", explaining why it was filtered.
 ```
+<img width="1234" height="414" alt="fps" src="https://github.com/user-attachments/assets/ba63116d-7184-484e-b24e-fe0b76d16ac7" />
+
 Configuration (FP Rules)
 You can customize the False Positive logic by modifying the sets and functions within the fpr.py file:
 ```bash
